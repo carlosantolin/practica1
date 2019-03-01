@@ -1,0 +1,13 @@
+Creación de website:
+
+ENTREGA: mandar a  aressancho@hotmail.com direccion github con practica1
+	Temática libre.
+	
+	Analizar websites similiares, y recopilar url en archivo enlaces.txt
+
+	Crear esquema(wireframe)  de la portada, y webs asociadas.
+	
+	Crear codigo relevante.
+
+	Incorporar modificaciones que se crean convenientes nos previstos anteriormente.
+
