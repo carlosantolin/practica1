@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(229, 128, 255);
+}
+
+.menu {
+	display: table;
+	background-color: black;
+	position: fixed;
+	
+}
+
+.menu ul  {
+	overflow: hidden;
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	float: left;
+	display: inline-block;
+	
+}
+
+li a{
+	margin: 10px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+.partearriba {
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 200px;
+}
+
+.videos {
+	float: left;
+	width: 47%;
+	margin: 2px;
+}
+.ultimasentradas {
+	float: right;
+	width: 50%;
+	margin-bottom: 125px;
+}
+
+.entradilla {
+	text-align: center;
+}
+
+.parteabajo {
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 200px;
+}
+
+.footer {
+    text-align: center;
+	margin-top: 20px;
+	background-color: gray;
+}
+
+.nuevospersonajes {
+	width: 20%;
+	float: left;
+}
+
+.nuevosescenarios {
+	width: 30%;
+	float: right;
+}
