@@ -1,8 +1,8 @@
 body {
 	position: relative;
-	margin: 10px; /*gets rid of white space around body*/
+	margin: 9%; /*gets rid of white space around body*/
 	margin-top:16px;
-	height:250vh;
+	height:300vh;
 }
 
 .menu a {
@@ -37,15 +37,20 @@ body {
 
 .nuevospersonajes {
 	float: left;
-	background: white;
+    background: darkslategrey;
+    padding: 10px;
+    border-radius: 10% 20% 10% 40% / 50% 33% 15% 40%;
 }
 
 .nuevosescenarios {
 	float: right;
+	padding: 10px;
+	background: darkslategrey;
+	border-radius: 10% 20% 10% 40% / 50% 33% 15% 40%;
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	background: grey;
@@ -56,7 +61,22 @@ body {
 	text-align: center;
 }
 
+.entrada {
+	float:right;
+	padding: 10px;
+	width: 100%;
+	
+}
 
+.leermas {
+	margin-left: 10px;
+}
+
+.imagenblog {
+	float:left ;
+	width: 35%;
+	padding: 10px;
+}
 
 body {
   background-color: #C84949;
@@ -90,4 +110,8 @@ p {
   margin: 0 0 24px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+#mas1, #mas2, #mas3, #mas4 {
+	display: none;
 }

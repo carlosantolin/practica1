@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<link href="stylesheet.css" type="text/css" rel="stylesheet">
+
+<body>
+
+	<div class="menu">
+
+		<a class="menuitem" href="index.html">INICIO</a> <a class="menuitem"
+			href="blog.html">BLOG</a> <a class="menuitem" href="#">PERSONAJES</a>
+
+	</div>
+
+	<div class="partearriba">
+		<div class="entrada">
+			<h2>Título 1</h2>
+			<img class="imagenblog" src="foto.png">
+			<p>
+				Vigoroth unown marshtomp, wormadam armaldo litwick moltres. Landorus
+				deoxys manectric nidorino yamask munchlax tirtouga kingdra steelix
+				druddigon piplup. Liepard butterfree nidorina steelix. Krabby
+				zangoose grovyle leafeon. manectric nidorino yamask munchlax
+				tirtouga kingdra steelix druddigon piplup. Liepard butterfree
+				nidorina steelix. <span id="puntos1">...</span><span id="mas1">
+					Krabby zangoose grovyle leafeon. Dusclops keldeo chikorita ampharos
+					magmar cryogonal. Chansey zorua mewtwo cherrim bellossom smeargle
+					muk meditite. Buneary eelektrik tirtouga ninetales cobalion
+					kricketot qwilfish wooper cobalion rapidash porygon duskull
+					houndoom. Vigoroth, dratini samurott togetic axew magnezone deino
+					cacnea magnemite. Drapion yamask pidgeotto gible raticate aggron
+					pidove rufflet. </span>
+			</p>
+			<button onclick="leerMas(1)" id="leermas1">leer más</button>
+		</div>
+	</div>
+
+	<div class="partearriba">
+		<div class="entrada">
+			<h2>Título 2</h2>
+			<img class="imagenblog" src="foto.png">
+			<p>
+				Vigoroth unown marshtomp, wormadam armaldo litwick moltres. Landorus
+				deoxys manectric nidorino yamask munchlax tirtouga kingdra steelix
+				druddigon piplup. Liepard butterfree nidorina steelix. Krabby
+				zangoose grovyle leafeon. manectric nidorino yamask munchlax
+				tirtouga kingdra steelix druddigon piplup. Liepard butterfree
+				nidorina steelix. <span id="puntos2">...</span><span id="mas2">
+					Krabby zangoose grovyle leafeon. Dusclops keldeo chikorita ampharos
+					magmar cryogonal. Chansey zorua mewtwo cherrim bellossom smeargle
+					muk meditite. Buneary eelektrik tirtouga ninetales cobalion
+					kricketot qwilfish wooper cobalion rapidash porygon duskull
+					houndoom. Vigoroth, dratini samurott togetic axew magnezone deino
+					cacnea magnemite. Drapion yamask pidgeotto gible raticate aggron
+					pidove rufflet. </span>
+			</p>
+			<button onclick="leerMas(2)" id="leermas2">leer más</button>
+		</div>
+	</div>
+
+	<div class="partearriba">
+		<div class="entrada">
+			<h2>Título 3</h2>
+			<img class="imagenblog" src="foto.png">
+			<p>
+				Vigoroth unown marshtomp, wormadam armaldo litwick moltres. Landorus
+				deoxys manectric nidorino yamask munchlax tirtouga kingdra steelix
+				druddigon piplup. Liepard butterfree nidorina steelix. Krabby
+				zangoose grovyle leafeon. manectric nidorino yamask munchlax
+				tirtouga kingdra steelix druddigon piplup. Liepard butterfree
+				nidorina steelix. <span id="puntos3">...</span><span id="mas3">
+					Krabby zangoose grovyle leafeon. Dusclops keldeo chikorita ampharos
+					magmar cryogonal. Chansey zorua mewtwo cherrim bellossom smeargle
+					muk meditite. Buneary eelektrik tirtouga ninetales cobalion
+					kricketot qwilfish wooper cobalion rapidash porygon duskull
+					houndoom. Vigoroth, dratini samurott togetic axew magnezone deino
+					cacnea magnemite. Drapion yamask pidgeotto gible raticate aggron
+					pidove rufflet. </span>
+			</p>
+			<button onclick="leerMas(3)" id="leermas3">leer más</button>
+		</div>
+	</div>
+
+	<div class="partearriba">
+		<div class="entrada">
+			<h2>Título 4</h2>
+			<img class="imagenblog" src="foto.png">
+			<p>
+				Vigoroth unown marshtomp, wormadam armaldo litwick moltres. Landorus
+				deoxys manectric nidorino yamask munchlax tirtouga kingdra steelix
+				druddigon piplup. Liepard butterfree nidorina steelix. Krabby
+				zangoose grovyle leafeon. manectric nidorino yamask munchlax
+				tirtouga kingdra steelix druddigon piplup. Liepard butterfree
+				nidorina steelix. <span id="puntos4">...</span><span id="mas4">
+					Krabby zangoose grovyle leafeon. Dusclops keldeo chikorita ampharos
+					magmar cryogonal. Chansey zorua mewtwo cherrim bellossom smeargle
+					muk meditite. Buneary eelektrik tirtouga ninetales cobalion
+					kricketot qwilfish wooper cobalion rapidash porygon duskull
+					houndoom. Vigoroth, dratini samurott togetic axew magnezone deino
+					cacnea magnemite. Drapion yamask pidgeotto gible raticate aggron
+					pidove rufflet. </span>
+			</p>
+			<button onclick="leerMas(4)" id="leermas4">leer más</button>
+		</div>
+	</div>
+	<div class="footer">Todos los techos reservados</div>
+
+	<script type="text/javascript">
+		function leerMas(id) {
+			var puntos = document.getElementById("puntos"+id);
+			var mas = document.getElementById("mas"+id);
+			var boton = document.getElementById("leermas"+id);
+
+			if (puntos.style.display == "none") {
+
+				puntos.style.display = "inline";
+				boton.innerHTML = "leer más"
+				mas.style.display = "none";
+			} else {
+				puntos.style.display = "none";
+				boton.innerHTML = "leer menos";
+				mas.style.display = "inline";
+			}
+
+		}
+	</script>
+
+
+</body>
+</html>
