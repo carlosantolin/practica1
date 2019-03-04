@@ -1,73 +1,93 @@
 body {
-	background-color: rgb(229, 128, 255);
+	position: relative;
+	margin: 10px; /*gets rid of white space around body*/
+	margin-top:16px;
+	height:250vh;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 20px;
 }
 
 .menu {
-	display: table;
-	background-color: black;
-	position: fixed;
-	
+  overflow: hidden;
+  background-color: #dddddd;
+  padding: 20px 10px;
+  display: inline-block;
+  border-radius: 30% 70% 53% 47% / 45% 46% 54% 55%;
 }
 
-.menu ul  {
-	overflow: hidden;
-	list-style: none;
-	display: inline-block;
+.menu a:hover {
+  background-color: #eee;
+  color: #6B5555;
 }
 
-li {
-	float: left;
-	display: inline-block;
-	
-}
-
-li a{
-	margin: 10px;
-	padding: 5px;
-	text-decoration: none;
-	color: white;
-	display: inline-block;
-}
-
-.partearriba {
-	width: 100%;
-	margin-top: 70px;
-	margin-bottom: 200px;
-}
-
-.videos {
-	float: left;
-	width: 47%;
-	margin: 2px;
-}
-.ultimasentradas {
-	float: right;
-	width: 50%;
-	margin-bottom: 125px;
-}
-
-.entradilla {
-	text-align: center;
-}
-
-.parteabajo {
-	width: 100%;
-	margin-top: 70px;
-	margin-bottom: 200px;
-}
-
-.footer {
-    text-align: center;
-	margin-top: 20px;
-	background-color: gray;
+.ivideo {
+  float: left;
+  width: 65%;
+  padding: 10px;
 }
 
 .nuevospersonajes {
-	width: 20%;
 	float: left;
+	background: white;
 }
 
 .nuevosescenarios {
-	width: 30%;
 	float: right;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: grey;
+	color: white;
+	width: 100%;
+	height:44px;
+	padding-top:20px;
+	text-align: center;
+}
+
+
+
+body {
+  background-color: #C84949;
+}
+
+h1 {
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 275px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+h2 {
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+p {
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
